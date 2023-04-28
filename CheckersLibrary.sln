@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckersLibrary", "CheckersLibrary\CheckersLibrary.csproj", "{9670A4EC-1B2F-4252-B1B6-CC898713ECCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckersLibrary", "CheckersLibrary\CheckersLibrary.csproj", "{9670A4EC-1B2F-4252-B1B6-CC898713ECCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsInterface", "FormsInterface\FormsInterface.csproj", "{640CBF97-C1A4-4F7E-9CAC-440CE33226B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9670A4EC-1B2F-4252-B1B6-CC898713ECCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9670A4EC-1B2F-4252-B1B6-CC898713ECCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9670A4EC-1B2F-4252-B1B6-CC898713ECCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{640CBF97-C1A4-4F7E-9CAC-440CE33226B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{640CBF97-C1A4-4F7E-9CAC-440CE33226B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{640CBF97-C1A4-4F7E-9CAC-440CE33226B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{640CBF97-C1A4-4F7E-9CAC-440CE33226B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
