@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace FormsInterface
 {
-    public partial class MainMenu : Form
+    public partial class GameForm : Form
     {
-        public MainMenu()
+        public GameForm()
         {
             InitializeComponent();
-        }
-
-        private void MainMenu_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
