@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CheckersLibrary;
 
 namespace FormsInterface
 {
@@ -38,6 +39,22 @@ namespace FormsInterface
         }
 
         private void GameForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            // Отображаем форму главного меню после закрытия формы игры
+            this.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Rules rules = new Rules();
+            rules.FormClosed += Rules_FormClosed;
+
+            // Отображаем форму игры
+            rules.Show();
+            this.Hide();
+        }
+
+        private void Rules_FormClosed(object sender, FormClosedEventArgs e)
         {
             // Отображаем форму главного меню после закрытия формы игры
             this.Show();
