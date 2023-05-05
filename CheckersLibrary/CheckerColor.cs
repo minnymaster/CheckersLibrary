@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CheckersLibrary
+namespace CheckersGame
 {
     public enum CheckerColor
     {
-        White,
+        Red,
         Black
     }
 }
